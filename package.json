@@ -1,0 +1,9 @@
+{
+  "name": "reembolso-v4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "calcular": "node src/cli.mjs"
+  }
+}
