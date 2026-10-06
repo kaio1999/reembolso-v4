@@ -1,0 +1,93 @@
+{
+  "politica_versao": "v4",
+  "acrescimo_em_viagem_percentual": 50,
+  "acrescimo_aplicado": false,
+  "colaborador": {
+    "id": "c-1103",
+    "nome": "Dani Okonkwo",
+    "centro_custo": "CC-SUPORTE-N2"
+  },
+  "periodo": {
+    "competencia": "2026-07",
+    "inicio": "2026-07-01",
+    "fim": "2026-07-31"
+  },
+  "politica_origem": "padrao",
+  "itens": [
+    {
+      "id": "f-001",
+      "data": "2026-07-16",
+      "categoria": "alimentacao",
+      "moeda": "BRL",
+      "valor_original": "58.00",
+      "valor_brl": "58.00",
+      "taxa": null,
+      "data_taxa": null,
+      "taxa_origem": null,
+      "politica_origem": "padrao",
+      "limite_brl": "60.00",
+      "valor_reembolsavel": "58.00",
+      "valor_glosado": "0.00",
+      "estado": "aprovado",
+      "motivo": null
+    },
+    {
+      "id": "f-002",
+      "data": "2026-07-17",
+      "categoria": "hospedagem",
+      "moeda": "BRL",
+      "valor_original": "310.00",
+      "valor_brl": "310.00",
+      "taxa": null,
+      "data_taxa": null,
+      "taxa_origem": null,
+      "politica_origem": "padrao",
+      "limite_brl": "250.00",
+      "valor_reembolsavel": "250.00",
+      "valor_glosado": "60.00",
+      "estado": "aprovado",
+      "motivo": "glosa_teto"
+    },
+    {
+      "id": "f-003",
+      "data": "2026-07-17",
+      "categoria": "representacao",
+      "moeda": "BRL",
+      "valor_original": "190.00",
+      "valor_brl": "190.00",
+      "taxa": null,
+      "data_taxa": null,
+      "taxa_origem": null,
+      "politica_origem": "padrao",
+      "limite_brl": null,
+      "valor_reembolsavel": "0.00",
+      "valor_glosado": "190.00",
+      "estado": "reprovado",
+      "motivo": "categoria_nao_coberta"
+    },
+    {
+      "id": "f-004",
+      "data": "2026-07-21",
+      "categoria": "transporte_urbano",
+      "moeda": "USD",
+      "valor_original": "12.00",
+      "valor_brl": "65.76",
+      "taxa": "5.48",
+      "data_taxa": "2026-07-21",
+      "taxa_origem": "data_despesa",
+      "politica_origem": "padrao",
+      "limite_brl": "80.00",
+      "valor_reembolsavel": "65.76",
+      "valor_glosado": "0.00",
+      "estado": "aprovado",
+      "motivo": null
+    }
+  ],
+  "totais": {
+    "solicitado_brl": "623.76",
+    "aprovado_brl": "373.76",
+    "pendente_brl": "0.00",
+    "nao_reembolsado_brl": "250.00",
+    "itens_sem_conversao": 0
+  }
+}

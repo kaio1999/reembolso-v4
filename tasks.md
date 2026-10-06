@@ -2,6 +2,8 @@
 
 Não havia numeração anterior neste diretório. A sequência começa em T1.
 
+Status: concluídas.
+
 ## T1 — Reescrever a spec para a v4
 
 Registrar limites externos, moeda, conversão pela data, fallback de centro de custo e o contrato de saída com estado. Apontar as ambiguidades para `DECISIONS.md`.
